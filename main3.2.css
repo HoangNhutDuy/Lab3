@@ -1,0 +1,140 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+body {
+  line-height: 1.5;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  outline: none;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+body{
+    font-family: "Poppins";
+    height: 100vh;
+    padding: 20px 25px;
+}
+:root{
+    --main-color: #eee;
+}
+.form{
+    padding: 20px 40px;
+    border: 10px solid var(--main-color);
+}
+.header_text{
+text-align: center;
+font-size: 40px;
+font-weight: bold;
+}
+.input_name{
+    margin-top: 40px;
+    background-color: var(--main-color);
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.input_name input{
+    width: 100%;
+    padding: 5px 0px;
+    border: none;
+    outline: none;
+    background-color: var(--main-color);
+}
+.contact_input{
+    margin: 20px 0;
+    display: flex;
+}
+.contact_input input{
+    width: 100%;
+    border: none;
+    background-color: var(--main-color);
+    padding: 5px 0px;
+}
+.input_email,
+.input_phone{
+    background-color: var(--main-color);
+    padding: 10px 15px;
+    border-radius: 10px;
+    width: 50%;
+}
+.input_email{
+    margin-right: 25px;
+}
+.input_services{
+    background-color: var(--main-color);
+    padding: 10px 15px;
+    border-radius: 10px;
+    width: 100%;
+
+}
+h2{
+    margin-bottom: 5px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    margin-right: 15px;
+}
+.input_message{
+    background-color: #fff;
+    border: 1px solid var(--main-color);
+    height: 200px;
+    padding: 10px 15px;
+    border-radius: 10px;
+
+}
+.input_message input{
+    width: 100%;
+    border: none;
+    padding: 5px 0px;
+}
+.submit_btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.submit_btn button{
+    display: flex;
+    padding: 10px 500px;
+    align-items: center;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: #000;
+    color: #fff;
+
+}
+.submit_btn i{
+    margin-left: 15px;
+}

@@ -1,0 +1,223 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+body {
+    line-height: 1.5;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    outline: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+html {
+    font-family: "Poppins";
+}
+
+body {
+    height: 150vh;
+    background-color: gray;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+:root {
+    --main-color: #20E3B2;
+}
+
+form {
+    
+    background-color: #fff;
+    padding: 30px 40px;
+    width: 70%;
+}
+
+h2 {
+    color: var(--main-color);
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.input_name,
+.input_email,
+.input_password,
+.card_number,
+.card_cvc {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    background-color: #eee;
+    padding-left: 15px;
+    border: 1px solid gray;
+    color: gray;
+
+}
+
+.input_name input,
+.input_email input,
+.input_password input,
+.card_number input,
+.card_cvc input {
+    width: 100%;
+    padding: 15px;
+    background-color: #eee;
+    border: none;
+    outline: none;
+    margin-left: 25px;
+}
+
+.input_name span,
+.input_email span,
+.input_password span,
+.card_number span,
+.card_cvc span {
+    border-right: 1px solid #dadada;
+    height: 40px;
+    margin-left: 25px;
+}
+
+i {
+    margin-left: 15px;
+}
+
+.text {
+    margin: 30px 0;
+    display: flex;
+    color: var(--main-color);
+    font-weight: 800;
+}
+
+.gender {
+   transform: translateX(560%);
+}
+
+.inputGenderandBirth {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.input_birth input {
+    padding: 15px;
+    color: gray;
+}
+
+.input_date {
+    width: 60px;
+
+}
+
+.input_month {
+    width: 70px;
+    margin: 0 15px;
+
+}
+
+.input_year {
+    width: 90px;
+}
+
+.input_year::placeholder {
+    text-align: center;
+}
+
+.btn_gender button {
+    padding: 15px 50px;
+    color: gray;
+}
+
+.btn_gender .btn_male {
+    margin-right: -5px;
+    padding: 15px 55px;
+}
+
+
+.btn_pay {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.btn_credits,
+.btn_paypal {
+    width: 50%;
+    padding: 20px 40px;
+    cursor: pointer;
+    color: gray;
+    border: 1px solid #eee;
+    outline: none;
+}
+
+.btn_credits {
+    color: #fff;
+    background-color: var(--main-color);
+
+}
+
+.card_cvc {
+    width: 40%;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dateOfBirth_btn button {
+    margin-top: 30px;
+    padding: 14px 40px;
+    color: gray;
+
+}
+
+
+.dateOfBirth_btn .year_btn {
+    margin-left: -5px;
+}
+
+.footer.text {
+    margin-top: 50px;
+}
+
+.footer_form {
+    display: flex;
+    align-items: center;
+}
+
+.footer_form p {
+    margin: 20px 0 0 10px;
+    color: gray;
+}
